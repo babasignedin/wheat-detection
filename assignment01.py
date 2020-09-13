@@ -18,7 +18,7 @@ plt.show()
 
 #convert to grayscale image
 nemo_bg = cv2.cvtColor(nemo, cv2.COLOR_BGR2GRAY)
-plt.imshow(nemo_bg)
+plt.imshow(nemo_bg, cmap = "gray")
 plt.show()
 #cv2.imshow('Gray image', nemo2)
 #cv2.waitKey()
